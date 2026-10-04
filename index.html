@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brew Bliss Cafe</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { background: #fff8f0; color: #3e2723; }
+nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 8%; background: white; position: sticky; top:0; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+nav h1 { color: #6f4e37; font-size: 24px; }
+nav h1 span { color: #c49a6c; }
+nav a { text-decoration: none; color: #3e2723; margin-left: 20px; font-weight: 500; }
+.hero { display: flex; align-items: center; justify-content: space-between; padding: 60px 8%; flex-wrap: wrap; }
+.hero-text { flex: 1; min-width: 300px; }
+.hero-text h2 { font-size: 52px; line-height: 1.1; color: #3e2723; }
+.hero-text h2 span { color: #6f4e37; }
+.hero-text p { margin: 20px 0; color: #8d6e63; font-size: 18px; max-width: 450px; }
+.btn { background: #6f4e37; color: white; padding: 14px 28px; border: none; border-radius: 30px; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-block; }
+.hero-img { flex: 1; text-align: center; min-width: 300px; }
+.hero-img img { width: 90%; border-radius: 20px; }
+.section { padding: 60px 8%; text-align: center; }
+.cards { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+.card { background: white; padding: 20px; border-radius: 16px; width: 280px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+.card img { width: 100%; border-radius: 12px; height: 180px; object-fit: cover; }
+.card h3 { margin: 15px 0 5px; }
+.card p { color: #8d6e63; font-size: 14px; }
+footer { background: #3e2723; color: #d7ccc8; text-align: center; padding: 30px; margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <h1>Brew <span>Bliss</span></h1>
+  <div>
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-text">
+    <h2>Good <span>Coffee</span> <br> Good Mood</h2>
+    <p>Welcome to Brew Bliss Cafe. Freshly brewed coffee, cozy vibes and delicious bites made with love.</p>
+    <a href="#menu" class="btn">Explore Menu</a>
+  </div>
+  <div class="hero-img">
+    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600" alt="coffee">
+  </div>
+</div>
+
+<div class="section" id="menu">
+  <h2>Our Specials</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400">
+      <h3>Cappuccino</h3>
+      <p>Rich espresso with steamed milk foam</p>
+      <h3>₹180</h3>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400">
+      <h3>Cold Brew</h3>
+      <p>Chilled, smooth and refreshing</p>
+      <h3>₹200</h3>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400">
+      <h3>Chocolate Mocha</h3>
+      <p>Perfect blend of coffee & chocolate</p>
+      <h3>₹220</h3>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="about" style="background: white;">
+  <h2>Why Brew Bliss?</h2>
+  <p style="max-width:600px; margin:15px auto; color:#8d6e63;">We are not just a cafe, we are your second home. Free WiFi, cozy corners for coding, and the best coffee in town.</p>
+</div>
+
+<footer>
+  <p>Made with ❤️ by Tanisha Kotiyal | Brew Bliss Cafe 2026</p>
+  <p style="margin-top:8px; font-size: 13px;">Deoband, UP | Open 8AM - 10PM</p>
+</footer>
+
+</body>
+</html>
